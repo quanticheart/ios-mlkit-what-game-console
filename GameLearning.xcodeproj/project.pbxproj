@@ -13,6 +13,7 @@
 		C904C5CD28301C9400CAAFAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C904C5CB28301C9400CAAFAF /* Main.storyboard */; };
 		C904C5CF28301C9800CAAFAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C904C5CE28301C9800CAAFAF /* Assets.xcassets */; };
 		C904C5D228301C9800CAAFAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C904C5D028301C9800CAAFAF /* LaunchScreen.storyboard */; };
+		C904C5DA283025E200CAAFAF /* game.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C904C5D9283025E200CAAFAF /* game.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		C904C5CE28301C9800CAAFAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C904C5D128301C9800CAAFAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C904C5D328301C9800CAAFAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C904C5D9283025E200CAAFAF /* game.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = game.mlmodel; sourceTree = "<group>"; };
+		C9F03707285BE58B0063B355 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +43,7 @@
 		C904C5B928301C9400CAAFAF = {
 			isa = PBXGroup;
 			children = (
+				C9F03707285BE58B0063B355 /* README.md */,
 				C904C5C428301C9400CAAFAF /* GameLearning */,
 				C904C5C328301C9400CAAFAF /* Products */,
 			);
@@ -56,6 +60,7 @@
 		C904C5C428301C9400CAAFAF /* GameLearning */ = {
 			isa = PBXGroup;
 			children = (
+				C904C5D9283025E200CAAFAF /* game.mlmodel */,
 				C904C5C528301C9400CAAFAF /* AppDelegate.swift */,
 				C904C5C728301C9400CAAFAF /* SceneDelegate.swift */,
 				C904C5C928301C9400CAAFAF /* ViewController.swift */,
@@ -141,6 +146,7 @@
 				C904C5CA28301C9400CAAFAF /* ViewController.swift in Sources */,
 				C904C5C628301C9400CAAFAF /* AppDelegate.swift in Sources */,
 				C904C5C828301C9400CAAFAF /* SceneDelegate.swift in Sources */,
+				C904C5DA283025E200CAAFAF /* game.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
